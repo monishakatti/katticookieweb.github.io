@@ -2,8 +2,8 @@ new Swiper(".swiper-container", {
     speed: 400,
     spacedBetween: 100,
     effect: "coverflow",
-    slidesPerView: 2,
-    loop: true,
+    slidesPerView: 3,
+    loop: false,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
