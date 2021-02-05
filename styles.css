@@ -104,6 +104,18 @@ body{
     display: flex;    
     justify-content: center;
     height: 5.3rem;
+    
+}
+
+
+@keyframes mymove {
+    from{left: 0%;}
+    to{left: 1600px;}
+}
+
+
+#drag-img {
+    animation-timing-function:ease-out;
 }
 
 .brand img{
@@ -112,7 +124,11 @@ body{
     border-radius: 50%;
     margin: 0;
     padding: 0;
+    position: relative;
+    animation: mymove 7s infinite;
 }
+
+
 
 .footer{
     margin: 180px;
@@ -121,4 +137,6 @@ body{
     font-weight: bold;
     color: rgb(9, 37, 31);    
 }
+
+
 
